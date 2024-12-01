@@ -356,7 +356,7 @@ export class AuthService {
       ]
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
       const generationConfig = {
-        temperature: 0.1,
+        temperature: 0.12,
         topP: 0.95,
         topK: 40,
         maxOutputTokens: 8192,
